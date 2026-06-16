@@ -153,16 +153,9 @@ export default function PatientPortal({ onAppointmentBooked, onOpenCRM, preselec
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3.5 flex items-center justify-between">
           
           {/* Brand Logo design */}
-          <div className="flex items-center gap-2">
-            <div className="w-10 h-10 rounded-2xl bg-gradient-to-tr from-[#0077B6] to-[#00B4D8] flex items-center justify-center text-white font-black text-xl shadow-md cursor-pointer">
-              🦷
-            </div>
-            <div>
-              <h1 className="text-lg font-bold text-slate-900 tracking-tight flex items-center gap-1.5 leading-none">
-                Paradise <span className="text-[#00B4D8] text-xs font-semibold px-1.5 py-0.5 bg-blue-50 rounded">Clínica Dental</span>
-              </h1>
-              <p className="text-[10px] text-slate-400 mt-0.5">Sedes Puente Nuevo, Los Olivos & Rimac</p>
-            </div>
+          <div className="flex items-center gap-3">
+            <img src="/logo.png" alt="Logo Paradise" className="w-10 h-10 rounded-2xl object-cover shadow-md cursor-pointer" />
+            <img src="/nombre.png" alt="Clínica Dental Paradise" className="h-8 sm:h-10 cursor-pointer" />
           </div>
 
           {/* Desktop Navigation */}
@@ -792,7 +785,7 @@ export default function PatientPortal({ onAppointmentBooked, onOpenCRM, preselec
           
           <div className="space-y-4">
             <div className="flex items-center gap-2">
-              <span className="text-2xl">🦷</span>
+              <img src="/logo.png" alt="Logo Paradise" className="w-8 h-8 rounded-xl object-cover" />
               <span className="text-lg font-black text-white">Paradise Dental</span>
             </div>
             <p className="text-xs leading-relaxed text-slate-500">
